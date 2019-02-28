@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Word Guess Game!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+   
+
+     <div class="container">
+        <header>
+            <h1>Diamonds Collector!</h1> 
+         </header>
+    <section id = "instructions">
+        <p> You will be given a random number at the start of the game.</p>
+        <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p> The value of each crystal is hidden from you until you click on it.</p>
+        <p> Each time when the game starts, the game will change the value of each crystal.</p>
+    </section>
+
+    <div class = "row">
+      <div class = "column" id = "row3">
+          <section id = "computer-Number"></section>
+          <section id = "winsTotal"></section>
+          <section id = "lossesTotal"></section>
+      </div>
+    </div>
+    
+        <div class="row" id = "gems">
+        <div class="column">
+            <img id = "pink" src = "assets/images/pink.png">
+        </div>
+        <div class="column">
+            <img id = "red" src = "assets/images/red.png">
+        </div>
+        <div class="column">
+            <img id = "yellow" src = "assets/images/yellow.png">
+        </div>
+        <div class="column">
+            <img id ="green" src = "assets/images/green.png">
+        </div>
+      </div>
+   
+      <p id = "scoreText"> Your total score is:</p>
+      
+      <div id = "myScore"> </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  
+</body>
+
+
+</html>
