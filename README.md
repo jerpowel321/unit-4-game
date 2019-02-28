@@ -3,9 +3,8 @@
 ## The objective of the game is for the player to guess which letter he or she thinks the enemy has picked. 
 
 The player will see the following screen when the game starts: 
-![Game Start](assets/images/start.png)
+![Game Start](assets/images/Start.png)
 
- 
 
 ![Winning Gif](https://media.giphy.com/media/24nHPa9iVMhbhspZTa/giphy.gif)
 
@@ -14,7 +13,7 @@ The player will see the following screen when the game starts:
 
 I learned how to use .... 
 ## Deployed Site
-Use this link to see the deployed site: 
+Use this link to see the deployed site:  https://jerpowel321.github.io/unit-4-game/
 
 ## Built With
 - HTML
