@@ -1,4 +1,4 @@
-# Diamonds :diamonds: Collector Game
+# Diamonds :gem: Collector Game
 
 ### Welcome to the diamonds collector game! Here, the goal of the game is to get your score to match the target score. 
 
